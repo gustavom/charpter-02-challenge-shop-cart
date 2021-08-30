@@ -33,11 +33,12 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
   });
 
   const addProduct = async (productId: number) => {
-    try {
-      // TODO
-    } catch {
-      // TODO
-    }
+    console.log('add produto', productId)
+    // try {
+    //   // TODO
+    // } catch {
+    //   // TODO
+    // }
   };
 
   const removeProduct = (productId: number) => {
